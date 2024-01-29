@@ -31,6 +31,8 @@ python3 shadowdomain.py -d domain.com -w wordlist -t 10 -o /home/teste/output.tx
 
 ```
 O projeto esta com um bot de teste `shadowdomain_bot` no banco de dados `api_tokens.db` , ou seja, você pode apenas inserir seu `chat_id` ou `group_id` e rodar que será enviado via chatbot do shadowdomain.
+
+Para testes: não se esqueça de procurar no telegram por `shadowdomain_bot` e inicia-lo clicando em /start, caso não seja feito, dará erro `HTTP Error 400: Bad Request`. ou siga os passos abaixo para criar seu próprio bot.
 ## Criação de token Telegram e Chat_ID / GROUP
 
 #### Telegram
